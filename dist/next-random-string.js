@@ -3,16 +3,19 @@
  * description: Random string for next.
  * url: https://github.com/afeiship/next-random-string
  * version: 1.0.0
- * date: 2020-03-28 12:59:29
+ * date: 2020-04-11 21:02:15
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
 
-  nx.randomString = function() {
-    //code goes here.
+  nx.randomString = function (inLength) {
+    var str = Math.random().toString(36);
+    var len = str.length;
+    var count = inLength || 6;
+    return str.substring(len - count);
   };
 
   if (typeof module !== 'undefined' && module.exports) {
