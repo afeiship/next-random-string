@@ -3,10 +3,13 @@ require('../src/next-random-string');
 
 describe('api.basic test', () => {
   test('nx.randomString', function () {
-    for (var i = 0; i < 10; i++) {
-      expect(nx.randomString(10).length).toBe(10);
-    }
+    expect(nx.randomString(8).length).toBe(8);
+    expect(nx.randomString(80).length).toBe(80);
+    expect(nx.randomString(100).length).toBe(100);
 
-    console.log(nx.randomString(8));
+    console.log(
+      nx.randomString(10)
+    );
+
   });
 });

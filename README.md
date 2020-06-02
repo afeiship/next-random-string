@@ -14,3 +14,6 @@ nx.randomString(8);
 
 // c83kkaiq
 ```
+
+## resources
+- https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
