@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-random-string
+ * name: @jswork/next-random-string
  * description: Random string for next.
  * homepage: https://github.com/afeiship/next-random-string
- * version: 1.1.0
- * date: 2020-06-02T05:18:20.455Z
+ * version: 1.0.0
+ * date: 2020-11-21 10:27:58
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var DEFAULT_OPTIONS = {
     charSet: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
   };
@@ -29,5 +29,3 @@
     module.exports = nx.randomString;
   }
 })();
-
-//# sourceMappingURL=next-random-string.js.map
