@@ -3,7 +3,7 @@
  * description: Random string for next.
  * homepage: https://github.com/afeiship/next-random-string
  * version: 1.0.0
- * date: 2020-11-21 10:27:58
+ * date: 2020-11-21 10:33:51
  * license: MIT
  */
 
