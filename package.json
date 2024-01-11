@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-random-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random string for next.",
   "homepage": "https://js.work",
   "author": {
@@ -34,10 +34,19 @@
     "uglify-save-license": "^0.4.1"
   },
   "babel": {
-    "presets": [["@babel/preset-env"]]
+    "presets": [
+      [
+        "@babel/preset-env"
+      ]
+    ]
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "random",
+    "string"
+  ]
 }

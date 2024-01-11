@@ -2,8 +2,8 @@
  * name: @jswork/next-random-string
  * description: Random string for next.
  * homepage: https://js.work
- * version: 1.0.0
- * date: 2024-01-11 16:06:12
+ * version: 1.0.1
+ * date: 2024-01-11 16:06:52
  * license: MIT
  */
 
